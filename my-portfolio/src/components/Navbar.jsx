@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll"; // Import react-scroll
+import { FaBars, FaTimes } from "react-icons/fa"; // Icons for the hamburger menu
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,44 +16,24 @@ const NavBar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-lg">
           <li>
-            <Link
-              to="home"
-              smooth={true}
-              duration={500}
-              className="hover:text-primary cursor-pointer"
-            >
+            <a href="#home" className="hover:text-primary">
               Home
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              to="projects"
-              smooth={true}
-              duration={500}
-              className="hover:text-primary cursor-pointer"
-            >
+            <a href="#projects" className="hover:text-primary">
               Projects
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              to="about"
-              smooth={true}
-              duration={500}
-              className="hover:text-primary cursor-pointer"
-            >
+            <a href="#about" className="hover:text-primary">
               About
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              to="contact"
-              smooth={true}
-              duration={500}
-              className="hover:text-primary cursor-pointer"
-            >
+            <a href="#contact" className="hover:text-primary">
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
 
@@ -73,48 +52,24 @@ const NavBar = () => {
       {isOpen && (
         <ul className="md:hidden bg-background flex flex-col space-y-4 py-4 text-center text-lg">
           <li>
-            <Link
-              to="home"
-              smooth={true}
-              duration={500}
-              className="hover:text-primary cursor-pointer"
-              onClick={toggleMenu}
-            >
+            <a href="#home" onClick={toggleMenu} className="hover:text-primary">
               Home
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              to="projects"
-              smooth={true}
-              duration={500}
-              className="hover:text-primary cursor-pointer"
-              onClick={toggleMenu}
-            >
+            <a href="#projects" onClick={toggleMenu} className="hover:text-primary">
               Projects
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              to="about"
-              smooth={true}
-              duration={500}
-              className="hover:text-primary cursor-pointer"
-              onClick={toggleMenu}
-            >
+            <a href="#about" onClick={toggleMenu} className="hover:text-primary">
               About
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              to="contact"
-              smooth={true}
-              duration={500}
-              className="hover:text-primary cursor-pointer"
-              onClick={toggleMenu}
-            >
+            <a href="#contact" onClick={toggleMenu} className="hover:text-primary">
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
       )}
