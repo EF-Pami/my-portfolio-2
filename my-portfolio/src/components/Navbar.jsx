@@ -9,7 +9,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-background text-white fixed w-full top-0 z-10 shadow-lg">
+    <nav className="bg-darkblue text-white fixed w-full top-0 z-10 shadow-lg">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="text-2xl font-bold">MyPortfolio</div>
 
@@ -28,6 +28,11 @@ const NavBar = () => {
           <li>
             <a href="#about" className="hover:text-primary">
               About
+            </a>
+          </li>
+          <li>
+            <a href="#skills" className="hover:text-primary">
+              Skills
             </a>
           </li>
           <li>
@@ -50,7 +55,7 @@ const NavBar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <ul className="md:hidden bg-background flex flex-col space-y-4 py-4 text-center text-lg">
+        <ul className="md:hidden bg-darkblue flex flex-col space-y-4 py-4 text-center text-lg">
           <li>
             <a href="#home" onClick={toggleMenu} className="hover:text-primary">
               Home
@@ -64,6 +69,11 @@ const NavBar = () => {
           <li>
             <a href="#about" onClick={toggleMenu} className="hover:text-primary">
               About
+            </a>
+          </li>
+          <li>
+            <a href="#skills" onClick={toggleMenu} className="hover:text-primary">
+              Skills
             </a>
           </li>
           <li>
