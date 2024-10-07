@@ -16,27 +16,42 @@ const NavBar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-lg">
           <li>
-            <a href="#home" className="hover:text-primary">
+            <a
+              href="#home"
+              className="hover:bg-belge hover:text-darkblue px-4 py-2 rounded transition duration-300"
+            >
               Home
             </a>
           </li>
           <li>
-            <a href="#projects" className="hover:text-primary">
+            <a
+              href="#projects"
+              className="hover:bg-belge hover:text-darkblue px-4 py-2 rounded transition duration-300"
+            >
               Projects
             </a>
           </li>
           <li>
-            <a href="#about" className="hover:text-primary">
+            <a
+              href="#about"
+              className="hover:bg-belge hover:text-darkblue px-4 py-2 rounded transition duration-300"
+            >
               About
             </a>
           </li>
           <li>
-            <a href="#skills" className="hover:text-primary">
+            <a
+              href="#skills"
+              className="hover:bg-belge hover:text-darkblue px-4 py-2 rounded transition duration-300"
+            >
               Skills
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-primary">
+            <a
+              href="#contact"
+              className="hover:bg-belge hover:text-darkblue px-4 py-2 rounded transition duration-300"
+            >
               Contact
             </a>
           </li>
@@ -46,7 +61,7 @@ const NavBar = () => {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-3xl focus:outline-none hover:text-primary"
+            className="text-3xl focus:outline-none hover:text-primary transition duration-300"
           >
             {isOpen ? <FaTimes /> : <FaBars />}
           </button>
@@ -57,27 +72,47 @@ const NavBar = () => {
       {isOpen && (
         <ul className="md:hidden bg-darkblue flex flex-col space-y-4 py-4 text-center text-lg">
           <li>
-            <a href="#home" onClick={toggleMenu} className="hover:text-primary">
+            <a
+              href="#home"
+              onClick={toggleMenu}
+              className="hover:bg-belge hover:text-darkblue px-4 py-2 rounded transition duration-300"
+            >
               Home
             </a>
           </li>
           <li>
-            <a href="#projects" onClick={toggleMenu} className="hover:text-primary">
+            <a
+              href="#projects"
+              onClick={toggleMenu}
+              className="hover:bg-belge hover:text-darkblue px-4 py-2 rounded transition duration-300"
+            >
               Projects
             </a>
           </li>
           <li>
-            <a href="#about" onClick={toggleMenu} className="hover:text-primary">
+            <a
+              href="#about"
+              onClick={toggleMenu}
+              className="hover:bg-belge hover:text-darkblue px-4 py-2 rounded transition duration-300"
+            >
               About
             </a>
           </li>
           <li>
-            <a href="#skills" onClick={toggleMenu} className="hover:text-primary">
+            <a
+              href="#skills"
+              onClick={toggleMenu}
+              className="hover:bg-belge hover:text-darkblue px-4 py-2 rounded transition duration-300"
+            >
               Skills
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={toggleMenu} className="hover:text-primary">
+            <a
+              href="#contact"
+              onClick={toggleMenu}
+              className="hover:bg-belge hover:text-darkblue px-4 py-2 rounded transition duration-300"
+            >
               Contact
             </a>
           </li>

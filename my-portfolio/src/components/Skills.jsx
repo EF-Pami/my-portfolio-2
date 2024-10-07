@@ -31,7 +31,7 @@ const Skills = () => {
             href={skill.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center text-center p-6 bg-darkblue shadow-lg rounded-lg transition transform hover:scale-105"
+            className="flex flex-col items-center text-center p-6 bg-darkblue shadow-lg rounded-lg transition transform hover:scale-105 hover:shadow-red-700"
           >
             {skill.icon}
             <p className="mt-4 text-xl font-semibold text-white">{skill.name}</p>
