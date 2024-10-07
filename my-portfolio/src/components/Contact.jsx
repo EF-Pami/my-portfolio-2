@@ -11,16 +11,16 @@ const Contact = () => {
         <p className="mb-4">Phone: +47 998 836 81</p>
 
         <div className="flex justify-center space-x-8 mb-8">
-          <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/EF-Pami" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-3xl hover:text-primary transition duration-300" />
           </a>
-          <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/pami.joel.9" target="_blank" rel="noopener noreferrer">
             <FaFacebook className="text-3xl hover:text-primary transition duration-300" />
           </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/ef-ll-pami-pami-04576624b" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-3xl hover:text-primary transition duration-300" />
           </a>
-          <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/its_joelleo" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="text-3xl hover:text-primary transition duration-300" />
           </a>
         </div>
