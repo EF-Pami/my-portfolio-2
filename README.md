@@ -27,7 +27,7 @@ In order to setup this project, follow the steps below:
 1. clone the repository
 
 ```sh
-git clone https://github.com/EF-Pami/holitime
+git clone https://github.com/EF-Pami/my-portfolio-2
 ```
 
 2. Navigate the project folder directory:
