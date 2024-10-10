@@ -33,7 +33,7 @@ git clone https://github.com/EF-Pami/my-portfolio-2
 2. Navigate the project folder directory:
 
 ```sh
-cd holitime
+cd my-portfolio
 ```
 
 3. Install the dependencies:
