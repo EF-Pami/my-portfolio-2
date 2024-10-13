@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <nav className="bg-darkblue text-white fixed w-full top-0 z-10 shadow-lg">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold">MyPortfolio</div>
+        <div className="text-2xl font-bold">EF Pami</div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-lg">
