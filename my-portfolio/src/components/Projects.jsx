@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"; // Import the necessary icons
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"; 
 import easybuy from "../assets/images/easy-buy.jpg.png";
 import holitime from "../assets/images/holitime.jpg.png";
 import snapbid from "../assets/images/snapbid.jpg.png";
@@ -10,24 +10,24 @@ const projects = [
     title: "EasyBuy",
     description: "An e-commerce platform for seamless online shopping.",
     imageUrl: easybuy,
-    githubLink: "https://github.com/EF-Pami/JS-Framework-React-CA", // Replace with your GitHub URL
-    liveSite: "https://main--easybuy-hub.netlify.app/", // Replace with the live site URL
+    githubLink: "https://github.com/EF-Pami/JS-Framework-React-CA", 
+    liveSite: "https://main--easybuy-hub.netlify.app/", 
   },
   {
     id: 2,
     title: "HoliTime",
     description: "A vacation booking website to find the best holiday packages.",
     imageUrl: holitime,
-    githubLink: "https://github.com/EF-Pami/holitime", // Replace with your GitHub URL
-    liveSite: "https://holitime.netlify.app/", // Replace with the live site URL
+    githubLink: "https://github.com/EF-Pami/holitime", 
+    liveSite: "https://holitime.netlify.app/", 
   },
   {
     id: 3,
     title: "SnapBid",
     description: "An online auction site for bidding on unique products.",
     imageUrl: snapbid,
-    githubLink: "https://github.com/EF-Pami/SP2", // Replace with your GitHub URL
-    liveSite: "https://snapbid-hub.netlify.app/", // Replace with the live site URL
+    githubLink: "https://github.com/EF-Pami/SP2", 
+    liveSite: "https://snapbid-hub.netlify.app/", 
   },
 ];
 
