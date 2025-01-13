@@ -26,8 +26,8 @@ const projects = [
     title: "SnapBid",
     description: "An online auction site for bidding on unique products.",
     imageUrl: snapbid,
-    githubLink: "https://github.com/EF-Pami/SP2", 
-    liveSite: "https://snapbid-hub.netlify.app/", 
+    githubLink: "https://github.com/EF-Pami/Semester-Project-2-Auction", 
+    liveSite: "https://snap-bid-auction.netlify.app/", 
   },
 ];
 
