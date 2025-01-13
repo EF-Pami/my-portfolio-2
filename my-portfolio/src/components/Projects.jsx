@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"; 
 import easybuy from "../assets/images/easy-buy.jpg.png";
 import holitime from "../assets/images/holitime.jpg.png";
-import snapbid from "../assets/images/snapbid.jpg.png";
+import snap from "../assets/images/snap.png.png";
 
 const projects = [
   {
@@ -25,7 +25,7 @@ const projects = [
     id: 3,
     title: "SnapBid",
     description: "An online auction site for bidding on unique products.",
-    imageUrl: snapbid,
+    imageUrl: snap,
     githubLink: "https://github.com/EF-Pami/Semester-Project-2-Auction", 
     liveSite: "https://snap-bid-auction.netlify.app/", 
   },
